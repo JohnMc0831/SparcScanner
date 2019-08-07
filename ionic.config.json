@@ -1,0 +1,7 @@
+{
+  "name": "SparcScanner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab One
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-card-header>
+        <ion-card-title>SparcScanner!</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button (click)="takePicture()"  color='primary'>Take Picture</ion-button>
+        <img src='(picSource)' />
+      </ion-card-content>
+    </ion-card>
+</ion-content>
+<ion-pwa-camera-modal />
